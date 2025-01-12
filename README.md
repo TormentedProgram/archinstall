@@ -4,10 +4,5 @@ cd ~ && sudo pacman -S git && git clone "https://github.com/TormentedProgram/arc
 ```
 # Part 2
 ```shell
-cd ~ && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si && cd ~ && git clone "https://github.com/TormentedProgram/archinstall.git" && yay -S --noconfirm - < ./archinstall/aur.txt
-```
-
-# Part 3
-```shell
-chezmoi init --apply tormentedprogram
+cd ~ && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si && cd ~ && git clone "https://github.com/TormentedProgram/archinstall.git" && yay -S --noconfirm - < ./archinstall/aur.txt && chezmoi init --apply tormentedprogram
 ```
