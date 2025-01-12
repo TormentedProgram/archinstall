@@ -109,8 +109,23 @@
         "type": "nm"
     },
     "ntp": true,
-    "packages": [],
-    "parallel downloads": 0,
+    "packages": [
+        "jellyfin-server",
+        "jellyfin-web",
+        "nicotine+",
+        "lutris",
+        "chezmoi",
+        "mpv",
+        "gwenview",
+        "pinta",
+        "kdenlive",
+        "firewalld",
+        "steam",
+        "umu-launcher",
+        "git",
+        "base-devel"
+    ],
+    "parallel downloads": 5,
     "profile_config": {
         "gfx_driver": "Nvidia (proprietary)",
         "greeter": "sddm",
