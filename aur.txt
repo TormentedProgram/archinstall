@@ -1,0 +1,8 @@
+equibop
+feishin-bin
+floorp-bin
+headsetcontrol
+hyprsome-git
+hyprswitch
+hyprswitch-debug
+prowlarr-bin
