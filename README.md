@@ -1,8 +1,7 @@
 # Part 1
 ```shell
-cd ~
-sudo pacman -S git && git clone "https://github.com/TormentedProgram/archinstall.git"
-sudo archinstall --config ./archinstall/user_configuration.json
+pacman -S git && git clone "https://github.com/TormentedProgram/archinstall.git"
+archinstall --config ./archinstall/user_configuration.json
 ```
 # Part 1.5 (OPTIONAL)
 ```shell
